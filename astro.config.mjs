@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlighBlog from 'starlight-blog';
 
 // https://astro.build/config
 export default defineConfig({
@@ -9,6 +10,7 @@ export default defineConfig({
     starlight({
       title: 'My Docs',
       description: 'My blog about programming and technology.',
+      plugins: [starlighBlog()],
       social: [
         {
           icon: 'github',

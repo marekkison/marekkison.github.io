@@ -1,6 +1,6 @@
 ---
 title: My first blog post
-date: 2026-21-10
+date: 2026-10-21
 author: Marek Kison
 ---
 

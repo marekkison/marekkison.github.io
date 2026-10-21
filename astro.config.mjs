@@ -5,7 +5,7 @@ import starlighBlog from 'starlight-blog';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://marekkison.github.io',
+  site: 'https://marekkison.github.io/',
   integrations: [
     starlight({
       title: 'My Docs',
@@ -25,10 +25,6 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             { label: 'Example Guide', slug: 'guides/example' },
           ],
-        },
-        {
-          label: 'Reference',
-          items: [{ autogenerate: { directory: 'reference' } }],
         },
       ],
     }),
